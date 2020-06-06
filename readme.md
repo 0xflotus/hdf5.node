@@ -52,9 +52,9 @@ var group = file.openGroup('bar');
 
 * Note: Release v0.3.4 
   * Reference attributes on datasets and groups are now available properties.
-  * Reserved propeties such as type, rank, rows etc. are now settable in options for dataset functions.  
+  * Reserved properties such as type, rank, rows etc. are now settable in options for dataset functions.  
   * Typescript definition files now available. 
-  * For static native linkng, link_type command line switch is provided in binding.gyp(darwin,win untested).
+  * For static native linking, link_type command line switch is provided in binding.gyp(darwin,win untested).
   * Added custom 64 bit signed (Int64) and unsigned (Uint64) integer attributes
     read/write since they aren't yet supported by javascript.  
   * Added a file method enableSingleWriteMultiRead (if native version older than 1.10.x it is a noop).
